@@ -1,3 +1,4 @@
-*.js
-*.JSON
-*.jpg
+script.js
+leaderboard.json
+server.py
+images/
