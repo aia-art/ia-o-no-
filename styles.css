@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    background: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#start-button,
+#try-again-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#add-score-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#ai-button {
+    background-color: #ff4757;
+    color: #fff;
+}
+
+#real-button {
+    background-color: #2ed573;
+    color: #fff;
+}
+
+#game-image {
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+#leaderboard-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#leaderboard-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#leaderboard-list li.highlight {
+    background-color: #f0f8ff;
+    font-weight: bold;
+}
+
+#leaderboard-list li.winner {
+    background-color: #ffeaa7;
+    font-weight: bold;
+}
+
+#feedback-text {
+    font-size: 1.2em;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.correct {
+    color: #28a745;
+}
+
+.incorrect {
+    color: #ff4757;
+}
+
+#lives-count,
+#score-count {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#about {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+input[type='text'] {
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px 0;
+    width: 80%;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#game-over-area {
+    margin-top: 20px;
+}
+
+#leaderboard-area {
+    margin-top: 20px;
+}
