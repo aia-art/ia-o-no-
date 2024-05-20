@@ -1,46 +1,48 @@
 [
   {
-    "name": "behyrt",
-    "score": 25
+    "name": "Hola.",
+    "score": 21,
+    "lives": 2
   },
   {
-    "name": "behyrt",
-    "score": 25
+    "name": "Si ves esto...",
+    "score": 20,
+    "lives": 3
   },
   {
-    "name": "dbfhevdtrfh por finnnnn",
+    "name": "...significa que el podio...",
     "score": 7
   },
   {
-    "name": "se raya",
+    "name": "...no va.",
     "score": 7
   },
   {
-    "name": "v9",
+    "name": "De todas formas,",
     "score": 6,
     "lives": 3,
     "beatGame": true
   },
   {
-    "name": "v9 2",
+    "name": "te felicito si te lo has pasado.",
     "score": 6,
     "lives": 3,
     "beatGame": true
   },
   {
-    "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "name": ":)",
     "score": 6,
     "lives": 3,
     "beatGame": true
   },
   {
-    "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "name": "Dime si te ha gustado, porfa.",
     "score": 6,
     "lives": 3,
     "beatGame": true
   },
   {
-    "name": "gsrdgsdfdsrf",
+    "name": "Que me ha llevado bastante tiempo hacerlo.",
     "score": 5,
     "lives": 2,
     "beatGame": true
@@ -58,7 +60,7 @@
     "beatGame": true
   },
   {
-    "name": "yessssssssssssssssss",
+    "name": "Perfecto.",
     "score": 5,
     "lives": 2,
     "beatGame": true
