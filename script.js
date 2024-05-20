@@ -85,11 +85,11 @@ function loadNextImage() {
 function handleAnswer(answer) {
     if (answer === correctAnswer) {
         score++;
-        feedbackText.textContent = 'Correct!';
+        feedbackText.textContent = '¡Correcto!';
         feedbackText.className = 'correct';
     } else {
         lives--;
-        feedbackText.textContent = 'Incorrect!';
+        feedbackText.textContent = '¡Incorrecto!';
         feedbackText.className = 'incorrect';
     }
     updateScore();
@@ -124,7 +124,7 @@ async function gameOver() {
         const playerRank = calculatePlayerRank(leaderboard);
 
         feedbackText.textContent = playerRank > 10
-            ? `You didn't make it to the leaderboard. Your rank: ${playerRank}`
+            ? `No has llegado al podio. Tu posición: ${playerRank}`
             : '';
 
         displayLeaderboard(leaderboard.slice(0, 10));
@@ -149,7 +149,7 @@ function displayLeaderboard(leaderboard) {
         .forEach((entry, index) => {
             const li = document.createElement('li');
             const star = entry.beatGame ? ' ★' : '';
-            li.textContent = `${index + 1}. ${entry.name}: ${entry.score} pts, ${entry.lives} lives${star}`;
+            li.textContent = `${index + 1}. ${entry.name}: ${entry.score} puntos, ${entry.lives} vidas${star}`;
             if (entry.name === currentPlayerName && entry.score === score) {
                 li.classList.add(playerBeatGame ? 'winner' : 'highlight');
             }
@@ -171,7 +171,7 @@ async function addScore() {
         const playerRank = calculatePlayerRank(allScores);
 
         feedbackText.textContent = playerRank > 10
-            ? `You didn't make it to the leaderboard. Your rank: ${playerRank}`
+            ? `No has llegado al podio. Tu posición: ${playerRank}`
             : '';
 
         const leaderboard = allScores.slice(0, 10); // Keep only top 10 for display
@@ -184,7 +184,7 @@ async function addScore() {
 
         displayLeaderboard(leaderboard);
     } catch (error) {
-        console.error('Error adding score:', error);
+        console.error('Error al añadir tu puntuación:', error);
     }
 
     playerNameInput.value = '';
